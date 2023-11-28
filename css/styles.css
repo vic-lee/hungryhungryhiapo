@@ -1,0 +1,52 @@
+
+header{
+    text-align: center;
+    padding: 5px;   
+}
+
+h1{
+ font-family: 'Sonsie One', cursive;
+ color: purple;
+ padding:5px;
+}
+
+#container{
+    margin-top: 20px;
+}
+
+img{
+    width: 50%;
+}
+
+.row{
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.block1, .block2, .block3{
+    padding: 5px;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+
+.block1:hover, .block2:hover, .block3:hover {
+    border: 2px solid #7FFF00;
+}
+
+#brand1, #price2, #remain3, .brand,.price{
+    cursor: pointer;
+}
+
+#descrip1, #descrip2{
+    visibility: hidden;
+}
+
+.nikeDesc{
+    visibility: hidden;
+}
+
+.price{
+    display: none;
+}
