@@ -1,52 +1,89 @@
 
 header{
     text-align: center;
-    padding: 5px;   
+    padding: 10px;   
 }
 
-h1{
- font-family: 'Sonsie One', cursive;
- color: purple;
+#game{
+font-family: 'Domine', serif;
+font-size: 40px;
+font-weight: bolder;
+ color: cornflowerblue;
  padding:5px;
 }
 
+#name{
+font-family: 'Domine', serif;
+font-size: 50px;
+font-weight: bolder;
+ color:#ff0000;
+}
+
+#tag{
+    font-family: 'Domine', serif;
+    font-size: 20px;
+}
+
+#ver{
+    font-family: 'Domine', serif;
+    font-size: 25px; 
+    color: purple 
+}
+
 #container{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 img{
     width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category{
+    text-align: center;
+    font-family: 'Domine', serif;
+
 }
 
 .row{
-    /* border: 1px solid black; */
     padding: 10px;
-    margin-bottom: 20px;
-
+    margin-bottom: 20px;     
 }
 
-.block1, .block2, .block3{
-    padding: 5px;
-    text-align: center;
-    border: 1px solid lightgray;
+#blue:hover{
+    border: 1px solid lightskyblue;
 }
 
-.block1:hover, .block2:hover, .block3:hover {
-    border: 2px solid #7FFF00;
+#green:hover{
+    border: 1px solid lightgreen;
 }
 
-#brand1, #price2, #remain3, .brand,.price{
+#yellow:hover{
+    border: 1px solid yellow;
+}
+
+#red:hover{
+    border: 1px solid red;
+}
+
+
+#action1, #action2, #action3, #action4{
     cursor: pointer;
+    text-align: center;
 }
 
-#descrip1, #descrip2{
+.feed{
+    font-family: 'Domine', serif;
+    font-size: 25px;
+    padding: 10px;
+    background-color: black; 
+    color: white;
+}
+#descrip1, #descrip2, #descrip3, #descrip4{
     visibility: hidden;
-}
-
-.nikeDesc{
-    visibility: hidden;
-}
-
-.price{
-    display: none;
+    font-family: 'Domine', serif;
+    padding: 10px;
+    font-size: 25px;
 }
