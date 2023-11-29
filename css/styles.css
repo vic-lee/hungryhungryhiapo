@@ -45,7 +45,6 @@ img{
 .category{
     text-align: center;
     font-family: 'Domine', serif;
-
 }
 
 .row{
@@ -53,7 +52,7 @@ img{
     margin-bottom: 20px;     
 }
 
- .col{
+ .col-sm-12, .col-md-6{
     padding: 20px;
 } 
 
