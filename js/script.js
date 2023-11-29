@@ -1,4 +1,3 @@
-
 //Training Hiapo
 action1.addEventListener('click', diplayTraining);
 
@@ -8,6 +7,11 @@ function diplayTraining(){
     }else{
         descrip1.style.visibility = 'visible';
     }
+}
+//Training Count
+action1.addEventListener('click', trainingCount);
+  function trainingCount(){
+     trainScore.innerHTML++;
 }
 
 //Demographics Hiapo
@@ -20,6 +24,12 @@ function displayDemo(){
         descrip2.style.visibility = 'visible';
     }
 }
+//Demographic Count
+action2.addEventListener('click', demoCount);
+  function demoCount(){
+     demoScore.innerHTML++;
+}
+
 //Olonā Hiapo
 action3.addEventListener('click', displayOlona);
 
@@ -29,6 +39,11 @@ function displayOlona(){
     }else{
         descrip3.style.visibility = 'visible';
     }
+}
+//Olonā Count
+action3.addEventListener('click', olonaCount);
+  function olonaCount(){
+     olonaScore.innerHTML++;
 }
 
 //display outcomes
@@ -41,126 +56,8 @@ function displayOutcomes(){
         descrip4.style.visibility = 'visible';
     }
 }
-
-//3. Adidas Human Race
-//Add an event listener to the Quantity element for the Adidas Tokio Solar Hu shoe that will increase the Quantity by 1 each time Quantity is clicked.
-
-// remain3.addEventListener('click', showQty);
-
-// function showQty(){
-//     qty3.innerHTML++;
-// }
-
-//4. Nike Air Jordan
-//Add an event listener to the Price element for the Nike Air Jordan shoe that will change the price from USD to JPY when clicked and vice versa. (you can use '¥43,618' for the Yen amount )
-
-// price4.addEventListener('click', showPrice);
-
-// function showPrice(){
-//     if(amt4.innerHTML === '$300'){
-//         amt4.innerHTML = '¥43,618';
-//     }else{
-//         amt4.innerHTML = '$300';
-//     }
-// }
-
-//5. Nike Air Mags
-//Add an event listener to the img element for the Nike Air Mag Shoe that will change the shoe image to an iconic movie that made this shoe popular after hovering (mouseover) over the shoe image and vice versa.
-
-//Use this image for the iconic movie: 
-//'https://static.wikia.nocookie.net/bttf/images/f/fd/Back_To_The_Future_Nike_Shoes.jpg/'
-
-// let imgElem = document.getElementsByTagName('img');
-
-// for(let i = 0; i<imgElem.length; i++){
-//     imgElem[4].addEventListener('mouseover', changeImg);
-// }
-
-// function changeImg(){
-//     if(imgElem[4].src === 'https://cdn.flightclub.com/TEMPLATE/090135/1.jpg'){
-//         imgElem[4].src = 'https://static.wikia.nocookie.net/bttf/images/f/fd/Back_To_The_Future_Nike_Shoes.jpg/';
-//     }else{
-//         imgElem[4].src = 'https://cdn.flightclub.com/TEMPLATE/090135/1.jpg';
-//     }  
-// }
-
-//6. Nike Kyrie
-//Add an event listener to all of the Nike shoes (Air Jordan, Air Mags, and Kyrie) that will toggle the description of the respective shoe when the brand element is clicked.
-
-// let nikeBrand = document.getElementsByClassName('brand');
-
-// for(let i =0; i<nikeBrand.length; i++){
-//     nikeBrand[i].addEventListener('click', showNikeDesc);
-// }
-
-// function showNikeDesc(){
-//     let nikeBrandDesc = this.querySelector('.nikeDesc');
-//     if(nikeBrandDesc.style.visibility === 'visible'){
-//         nikeBrandDesc.style.visibility = 'hidden';
-//     }else{
-//         nikeBrandDesc.style.visibility = 'visible';
-//     }
-// }
-
-//7. Saucony Shadow
-//Add an event listener to the Quantity elements for the Saucony and Asics and shoes that will increase the Quantity by 1 each time Quantity is clicked.
-
-// let addItem = document.getElementsByClassName('purchases');
-
-// for(let i = 0; i<addItem.length; i++){
-//     addItem[i].addEventListener('click', plusItem);
-// }
-
-// function plusItem(){
-//   let orderBox = this.querySelector('.orders');
-//   orderBox.innerHTML++; 
-// }
-
-//8. Asics Onitsuka Tiger
-//Add an event listener to the Price elements of Saucony, Asics and Pizza Hut shoes that will toggle the price of the respective shoe when clicked.
-
-// let amountBox = document.getElementsByClassName('amount');
-
-// for(let i = 0; i<amountBox.length; i++){
-//     amountBox[i].addEventListener('click', displayPrice);
-// }
-
-// function displayPrice(){
-//     let priceBox = this.querySelector('.price');
-//     if(priceBox.style.display === 'block'){
-//         priceBox.style.display = 'none';
-//     }else{
-//         priceBox.style.display = 'block';
-//     }
-// }
-
-//9. Pizza Hut
-//There are a couple of missing HTML elements that you'll need to create. Please create a div element with the following details:
-//the div element will have an id of 'qtyItems'
-//the innerHTML will be 'Quantity'
-//add an event listener with a click action and function name of editTotalOrders
-//append this div element to Pizza Hut shoe 
-
-//Next, create a paragraph element with following details:
-//the p element will have an id of 'tally'
-//the innerHTML will be '1'
-//append this p element to the above div element that you just created
-
-//Last step, create a function editTotalOrders that will that will increase the Quantity by 1 each time Quantity is clicked.
-
-// let blockCards = document.getElementsByClassName('block3');
-
-// let divElem = document.createElement('div');
-// divElem.id = 'qtyItems';
-// divElem.innerHTML = 'Quantity';
-// divElem.addEventListener('click', editTotalOrders)
-// blockCards[2].appendChild(divElem)
-
-// let pElem = document.createElement('p');
-// pElem.id = 'tally';
-// pElem.innerHTML = "1";
-// divElem.appendChild(pElem);
-
-// function editTotalOrders(){
-//    tally.innerHTML++;
-// }
+//Outcomes Count
+action4.addEventListener('click', outcomesCount);
+  function outcomesCount(){
+     outcomesScore.innerHTML++;
+}

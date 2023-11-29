@@ -5,33 +5,34 @@ header{
 }
 
 #game{
-font-family: 'Domine', serif;
-font-size: 40px;
-font-weight: bolder;
- color: cornflowerblue;
- padding:5px;
+    font-family: 'Domine', serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: cornflowerblue;
+    padding:5px;
 }
 
 #name{
-font-family: 'Domine', serif;
-font-size: 50px;
-font-weight: bolder;
- color:#ff0000;
+    font-family: 'Domine', serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color:#ff0000;
 }
 
 #tag{
     font-family: 'Domine', serif;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 #ver{
     font-family: 'Domine', serif;
-    font-size: 25px; 
+    font-size: 28px; 
     color: purple 
 }
 
 #container{
     margin-top: 25px;
+    padding: 20px;
 }
 
 img{
@@ -51,6 +52,11 @@ img{
     padding: 10px;
     margin-bottom: 20px;     
 }
+
+ .col{
+    padding: 20px;
+} 
+
 
 #blue:hover{
     border: 1px solid lightskyblue;
@@ -76,14 +82,26 @@ img{
 
 .feed{
     font-family: 'Domine', serif;
+    text-align: center;
     font-size: 25px;
     padding: 10px;
     background-color: black; 
     color: white;
+    margin-left: 10px;
 }
+
+#trainScore, #demoScore, #olonaScore, #outcomesScore{
+    font-family: 'Domine', serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    /* background-color: black; 
+    color: white; */
+}
+
 #descrip1, #descrip2, #descrip3, #descrip4{
     visibility: hidden;
     font-family: 'Domine', serif;
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
 }
