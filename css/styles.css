@@ -104,3 +104,18 @@ img{
     padding: 10px;
     font-size: 20px;
 }
+
+
+#disclosure{
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    border: 3px solid #568203;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    background-color: yellow;
+    color: #568203;
+
+}
+
